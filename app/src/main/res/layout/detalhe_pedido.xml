@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAceitarPedido"
+                android:onClick="btnAceitarPedido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aceitar Pedido" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dados - Pedido"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/dataXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Data:"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/horaXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Hora:"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/valorUnitXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Valor Unit. R$:"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/quantXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Quant.:"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/valorTotalXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Valor Total:"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/obsPedidoXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Obs:"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/statusPedidoXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Status Pedido:"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dados - Cliente"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/nomeClienteXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome:"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/telResXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tel.Res.:"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/telCelXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cel/Whats:"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/cepXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CEP:"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/ruaXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Rua:"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/numeroXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="N°:"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/bairroXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bairro:"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/cidadeXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cidade:"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/compleXml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Comple:"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

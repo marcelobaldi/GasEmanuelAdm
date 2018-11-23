@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listaPendEntrega.ListaPendEntregaTela">
+
+    <Button
+        android:layout_marginBottom="25sp"
+        android:layout_gravity="end"
+        android:id="@+id/btnPendenciaAceite"
+        android:onClick="btnPendenciaAceite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pendência de Aceite" />
+
+    <TextView
+        android:text="Pendência de Entrega"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/ListaPendAceiteXml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>
